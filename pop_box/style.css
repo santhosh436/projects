@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* margin: 160px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #186be8, #00a2fe, #00c9dc, #40e7a9, #d9fa90);
+    position: relative;
+}
+.submit {
+    width: 60px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: orange;
+}
+.pop{
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.3);
+    width: 300px;
+    min-height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    visibility: hidden;
+    transition: transform 0.3s ,top 0.4s;
+}
+.openPop{
+    visibility: visible;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+
+    
+}
+
+.pop img{
+    position: absolute;
+    width: 60px;
+    top: -25px;
+    /* margin-top: -50px; */
+    margin-left: 125px;
+
+}
+.pop p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+    color: green;
+}
+.pop button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    border-radius: 6px;
+    height: 25px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: orange;
+    font-weight: 600;
+    font-size: 15px;
+}
