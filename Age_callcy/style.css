@@ -63,8 +63,10 @@
 .container .msg{
     font-size: 23px;
     padding-left: 20px;
+    /* visibility: hidden; */
     
 }
 .msg span{
     color: purple;
+    
 }

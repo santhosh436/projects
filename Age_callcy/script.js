@@ -33,8 +33,10 @@ function CalculateAge(){
         m3 =11;
         y3--;
     }
+    
      msg.innerHTML =  `Your age is <span>${y3}</span> years <span>${m3}</span> months <span>${d3}</span> days Old`;
 }
 function DaysinMonth(Year,Month){
-    return new Date(Year,Month,0).getDate();
+    return new Date(Year,Month,-2).getDate();
+    console.log(new Date(2024,3,-2));
 }
