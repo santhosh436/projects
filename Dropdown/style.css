@@ -23,21 +23,22 @@ h2{
     color: orange;
     margin-left: 20px;
 }
+.dropdown{
+    transition: 0.5s;
+}
 .dropdown button{
-    /* width: 100px; */
+    /* width: 200px; */
     font-size: 23px;
     border: none;
     border-radius: 10px;
     outline: none;
-    padding: 7px 10px;
+    padding: 7px 40px;
     background-color: palegreen;
-    transition: 0.3s;
-
 }
 .dropdown .content a{
     /* width: 30px; */
     display: block;
-    background-color: gray;
+    background-color: orange;
     text-decoration: none;
     color: white;
     padding: 4px 30px;
@@ -47,8 +48,15 @@ h2{
     /* width: 100px; */
     margin-left: 10px;
     box-shadow: 2px 2px 3px black;
-    /* position: absolute; */
+    position: absolute;
 }
 .dropdown:hover .content{
     display: block;
+    transition: all 0.3s;
+    z-index: 999;
+}
+.content1{
+    position: absolute;
+    /* z-index: 790; */
+    /* top: 50px; */
 }
