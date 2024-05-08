@@ -1,13 +1,107 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* body{
+  background-color: black;
+} */
+.navbar{
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+}
+.navhead{
+  font-size: 2.3rem;
+  /* text-shadow: 2px 2px 5px orange; */
+  font-family: 'caveat';
+  color: white;
+  text-decoration: none;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navspan{
+  color: orange;
+  text-shadow: none;
+  font-family: 'caveat';
+}
+.navside ul{
+  display: flex; 
+  justify-content: space-around;
+  /* background-color: blue; */
+  width: 34rem;
+}
+.navside ul li {
+  list-style: none;
+  width: 6rem;
+  text-align: center;
+}
+.navside ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.navsearch{
+  /* background-color: blue; */
+  margin-right: 60px;
+}
+.navsearch input{
+  width: 15rem;
+  height: 2rem;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid white ;
+  padding: 15px;
+  font-size: 1rem;
+  margin-right: 6px;
+  color: white  ;
+  outline: none;
+}
+.navsearch button{
+  width: 5rem;
+  height: 2rem;
+  background-color: transparent ;
+  color: white;
+  box-shadow: 1px 1px 3px white;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+}
+.slider-container{
+  color: black;
+  padding: 0 35px;
+  background-color: blue;
+  margin-bottom: 10px;
+  height: 400px;
+}
+.box{
+  background-color: green;
+  height: 300px;
+  width: 300px;
+}
+.box img{
+  width: 320px;
+  height: 300px;
+}
+.box h3{
+  text-align: center;
+}
+.slick-slide div{
+  margin: 0 10px;
+}
+.slick-prev::before{
+  color: black !important;
+  font-size: 30px !important;
+}
+.slick-next::before{
+  color: black;
+  font-size: 30px !important;
 }
