@@ -6,13 +6,15 @@ body{
     align-items: center;
 }
 button{
-    border-radius: 20px;
-    height: 30px;
+    border-radius: 30px;
+    height: 50px;
     border: none;
     outline: none;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black,-2px -2px 2px black;
     background: transparent;
     font-weight: 600 ;
     font-size: 20px;
+    color: white;
+    padding: 0 10px;
     
 }
