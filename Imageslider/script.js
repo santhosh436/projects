@@ -8,9 +8,9 @@ slidewrapper.addEventListener("wheel",(evt)=>{
 })
 prevbtn.addEventListener("click",()=>{
     // slidewrapper.style.scrollBehavior = "smooth"
-    slidewrapper.scrollLeft -= 1240;
+    slidewrapper.scrollLeft -= 1200;
 } )
 nextbtn.addEventListener("click",()=>{
     slidewrapper.style.scrollBehavior = "smooth"
-    slidewrapper.scrollLeft += 1240;
+    slidewrapper.scrollLeft += 1200;
 } )

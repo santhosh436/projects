@@ -4,16 +4,24 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-body{
+h2{
+    text-align: center;
+    /* padding-top: 200px; */
+    background-color: red;
+}
+.container{
     width: 100%;
-    height: 100vh;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .slider{
     display: flex;
     align-items: center;
+    /* justify-content: center; */
+    /* background-color: red; */
 
 }
 .slider .prev-btn,.next-btn{
@@ -29,9 +37,7 @@ body{
     width: 1240px;
     display: flex;
     overflow-x:scroll ;
-
     /* padding: 0 40px; */
-
 }
 
 img{
